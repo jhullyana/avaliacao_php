@@ -1,4 +1,5 @@
 O tema escolhido foi um sistema de estoque onde o usuário tem a opções do CRUD, crete read update e delete.
+Na estilização foi usado Bootstrap
 O usuário faz login e abre uma tela de cadastramento de produtos, ele tem a opção também de ver estoque dele e editar e excluir produtos do estoque.
 Usuário/senha de teste: 
 usuario Jhullyana
