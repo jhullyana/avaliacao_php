@@ -12,6 +12,9 @@ function produto_em_branco() {
     return empty($_POST['produto']);
 }
 
+function campos_nao_preenchido(){
+    return empty($_POST['produto']) || empty($_POST['descricao']) || empty($_POST['quantidade']) || empty($_POST['valor']);
+}
 
 function tratar_erros() {
     if (isset($_GET['code'])) {

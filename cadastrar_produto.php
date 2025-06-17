@@ -7,7 +7,7 @@ if (form_nao_enviado()) {
     exit;
 }
 
-if (produto_em_branco()) {
+if (campos_nao_preenchido()) {
     header('location:home.php?code=2');
     exit;
 }
